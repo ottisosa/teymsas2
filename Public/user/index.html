@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEYMSAS</title>
+    <!-- Material Symbols google (icons) -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="../assets/css/index copy.css">
+    <script type="module" src="../assets/js/index.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="http://localhost/teymsas2/Public/user" class="logo">
+            <img src="../assets/img/Logo2.png" alt="">
+        </a>
+        <nav class="navbar">
+
+            <a href="#" onclick="loadContent('../user/PaginaPrincipal.html')">INICIO</a>
+            <a href="#empresa" onclick="loadContent('../user/Empresa.html')">EMPRESA</a>
+            <a href="#productos" onclick="loadContent('../user/productList.html')">PRODUCTOS</a>
+            <a href="#preguntas" onclick="loadContent('../user/PreguntasFrecuentes.html')">PREGUNTAS FRECUENTES</a>
+            <a href="#clientes" onclick="loadContent('../user/NuestrosClientes.html')">NUESTROS CLIENTES</a>
+            <a href="#contacto" onclick="loadContent('../user/Contacto.html')">CONTACTO</a>
+
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+            <div id="search-btn">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+            <div id="cart-btn">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+            </div>
+            <div id="login-btn">
+                <span class="material-symbols-outlined">
+                    account_circle
+                </span>
+            </div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Buscador...">
+            <label for="search-box"><span class="material-symbols-outlined">
+                    search
+                </span></label>
+        </form>
+
+        <div class="shopping-cart">
+
+            <div id="cart">
+
+
+            </div>
+
+            <div class="total">total : $ <span id="total"> </span></div>
+            <a href="#" onclick="loadContent('../user/carrito.html');" class="btn">checkout</a>
+        </div>
+
+        <form id="login-form" class="login-form">
+            <h3>Iniciar sesión</h3>
+            <input type="email" name="email" placeholder="example@example.com" class="box">
+            <input type="password" name="password" placeholder="********" class="box">
+            <p>Reestablecer contraseña <a href="#">clic aqui</a></p>
+            <br>
+            <p>¿No tiene una cuenta? <a href="../user/LoginRegistro.html">Registrarse</a></p>
+            <input type="submit" value="Iniciar Sesión" class="btn">
+        </form>
+
+    </header>
+
+    <main id="main-content"></main>
+
+    <footer>
+        <div>
+            <a href="https://wa.me/+59891333190" target="_blank">
+                <span class="material-symbols-outlined">
+                    call
+                </span>
+                (+598) 091 333 190
+            </a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/techosdeisopanel/" target="_blank">
+                <span class="material-symbols-outlined">
+                    language
+                </span> <a href="https://www.instagram.com/techosdeisopanel/" target="_blank">instagram.com/teymsas</a>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/techosdeisopanel" target="_blank">
+                <span class="material-symbols-outlined">
+                    language
+                </span> <a href="https://www.facebook.com/techosdeisopanel" target="_blank">facebook.com/teymsas</a>
+            </a>
+        </div>
+        <div>
+            <a href="mailto:teymsas@gmail.com" target="_blank">
+                <span class="material-symbols-outlined">
+                    mail
+                </span> teymsas@gmail.com
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

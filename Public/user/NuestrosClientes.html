@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="../assets/css/nuestros_clientes.css">
+
+
+<div class="general">
+    <div class="reseña-contenedor">
+        <h2>Comentarios y Reseñas</h2>
+
+        <div class="reseña">
+            <div class="reseña-comentarios">
+                <div class="reseña-cliente">Usuario123</div>
+                <div class="reseña-rating">⭐⭐⭐⭐☆</div>
+            </div>
+            <p class="reseña-coment">¡Excelente producto! Me llegó a tiempo y en perfectas condiciones.</p>
+        </div>
+
+        <div class="reseña">
+            <div class="reseña-comentarios">
+                <div class="reseña-cliente">Usuario456</div>
+                <div class="reseña-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+            <p class="reseña-coment">Muy buena calidad, definitivamente volveré a comprar.</p>
+        </div>
+
+            <!-- formulario para dejar una reseña -->
+        <form class="reseña_formulario">
+            <h3>Deja tu Reseña</h3>
+            <div class="calificacion">
+                <label>Nombre:</label>
+                <!-- <input type="text" id="username" name="username" placeholder="Tu nombre" required> -->
+                <textarea id="review" placeholder="Escribe tu reseña..." required></textarea>
+            </div>
+            <div class="calificacion">
+                <label>Calificación:</label>
+                <input type="radio" name="rating" value="5">⭐
+                <input type="radio" name="rating" value="4">⭐⭐
+                <input type="radio" name="rating" value="3">⭐⭐⭐
+                <input type="radio" name="rating" value="2">⭐⭐⭐⭐
+                <input type="radio" name="rating" value="1">⭐⭐⭐⭐⭐
+            </div>
+            <textarea placeholder="Escribe tu comentario..." required></textarea>
+            <button type="submit">Enviar Reseña</button>
+        </form>
+    </div>
+</div>
