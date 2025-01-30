@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("../img/Captura de pantalla 2024-05-13 145709.png");  */
+    height: 100%;
+  }
+  
+  .formLogin {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 5px solid rgb(224, 21, 21);
+    /*borde del di del formulario */
+    padding: 40px;
+    max-width: 600px;
+  
+  }
+  
+  .formLoginRegistro {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 5px solid rgb(224, 21, 21);
+    padding: 10px 40px;
+    max-width: 600px;
+    width: 200px; 
+    height: 2000px;
+
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #fd0202;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%;
+  }
+  
+  /* Estilo para la imagen de perfil */
+  .img {
+    width: 100px;
+    /* Ancho de la imagen */
+    height: 100px;
+    /* Altura de la imagen */
+    /*border-radius: 50%;  Hace la imagen circular */
+    margin-bottom: 20px;
+    /* Espacio debajo de la imagen */
+  }
+  
+  .panelvista {
+    height: 900px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #contenedorformulario {
+    height: 100%;
+    width: 800px;
+    position: absolute;
+    display: flex;
+    left: -400px;
+    transition: all .4s;
+  }
+  
+  #contenedorformulario>div {
+    width: 400px;
+  }
+  .img{
+    width: 120px;
+    height: 100px;
+  }

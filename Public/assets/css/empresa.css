@@ -1,0 +1,29 @@
+/* Estilo para los contenedores */
+.contenedoruno, .contenedordos {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #901b1b;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Estilo de imágenes */
+.img1, .img2 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    /*margin: 10px auto;*/ 
+    
+}
+
+

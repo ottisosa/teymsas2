@@ -1,0 +1,36 @@
+.contactos-contenedor {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    min-height: 76.4vh;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+.map {
+    margin-bottom: 20px;
+}
+
+.contactos-info {
+    margin-top: 20px;
+}
+
+.redes-sociales {
+    margin-top: 10px;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.redes-sociales a:hover {
+    text-decoration: underline;
+}
